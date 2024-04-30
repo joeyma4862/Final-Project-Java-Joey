@@ -1,0 +1,10 @@
+CREATE DATABASE PT_Pudding;
+
+USE PT_Pudding;
+
+CREATE TABLE Menu (
+    kode_menu VARCHAR(20) PRIMARY KEY,
+    nama_menu VARCHAR(255),
+    harga_menu DECIMAL(10, 2),
+    stok_menu INT
+);
